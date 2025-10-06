@@ -58,7 +58,7 @@ Mulai (Start)
     input jenisPengguna;
 
     // Proses
-````IF (kehadiran >= 75) THEN
+````IF ( >= 75) THEN
 IF (nilaiTugas >= 60) THEN
 Print "Boleh ikut ujian"
 ELSE
