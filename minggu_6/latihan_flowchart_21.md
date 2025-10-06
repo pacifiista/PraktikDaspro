@@ -34,11 +34,11 @@ Mulai(Start)
     Input kartuMahasiswa, registrasiOnline;
 
     // Proses
-    IF (kartuMahasiswa == "masuk") THEN
-````Print "Mahasiswa berhasil masuk" 
-````ELSE 
-````tampilkan "Mahasiswa gagal masuk" 
-````END IF 
+````IF (kartuMahasiswa == "masuk") THEN
+Print "Mahasiswa berhasil masuk" 
+ELSE 
+tampilkan "Mahasiswa gagal masuk" 
+END IF 
 Akhir(End)
 
 2. 
