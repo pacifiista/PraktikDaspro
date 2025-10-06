@@ -48,7 +48,8 @@ Akhir(End)
 
 2. Membuat Flowchart
 [nested2.drawio](https://github.com/user-attachments/files/22724533/nested2.drawio)
-<img width="555" height="697" alt="Screenshot 2025-10-06 215003" src="https://github.com/user-attachments/assets/c4f48ba9-4ac4-43d3-aa26-be549bb9c5d2" />
+<img width="539" height="698" alt="Screenshot 2025-10-06 220314" src="https://github.com/user-attachments/assets/d11d5b9c-137b-427e-bdb6-66d9b8ca5d68" />
+
 
 
 - Pseudocode untuk menyelesaikan masalah:
