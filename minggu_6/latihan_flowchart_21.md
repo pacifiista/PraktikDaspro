@@ -42,7 +42,32 @@ Mulai(Start)
 Print "Mahasiswa berhasil masuk" 
 ELSE 
 tampilkan "Mahasiswa gagal masuk" 
-END IF 
-Akhir(End)
+END IF
 ````
-2. 
+Akhir(End)
+
+2. Membuat Flowchart
+[nested2.drawio](https://github.com/user-attachments/files/22724533/nested2.drawio)
+<img width="527" height="705" alt="Screenshot 2025-10-06 213541" src="https://github.com/user-attachments/assets/938b4e35-a4a6-4894-8919-1f5d2aba9736" />
+
+- Pseudocode untuk menyelesaikan masalah:
+Mulai (Start)
+    // Deklarasi variabel
+    Set String jenisPengguna, jenisPenggunaMahasiswa, jenisPenggunaDosen;
+    Set int SKS;
+
+    // Input Data 
+    input jenisPengguna;
+
+    // Proses
+````IF ( jenisPenggunaMahasiswa == "jumlah SKS") THEN
+IF (SKS >= 12) THEN
+Print "Akses WiFi diberikan (mahasiswa aktif)"
+ELSE
+Print "Akses ditolak,SKS kurang dari 12"
+END IF
+ELSE
+Print "Akses ditolak"
+END IF
+````
+Akhir (End)
