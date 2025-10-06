@@ -35,10 +35,10 @@ Mulai(Start)
 
     // Proses
     IF (kartuMahasiswa == "masuk") THEN
-    Print "Mahasiswa berhasil masuk"
-    ELSE
-    tampilkan "Mahasiswa gagal masuk"
-    END IF
+<h3>Print "Mahasiswa berhasil masuk" </h3>
+<h3>ELSE </h3>
+<h3>tampilkan "Mahasiswa gagal masuk" </h3>
+<h3>END IF </h3>
 Akhir(End)
 
 2. 
