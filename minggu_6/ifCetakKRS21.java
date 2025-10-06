@@ -1,4 +1,4 @@
-package minggu_6.Jobsheet_5;
+package minggu_6;
 
 import java.util.Scanner;
 
