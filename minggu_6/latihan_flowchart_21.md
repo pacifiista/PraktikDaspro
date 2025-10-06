@@ -36,7 +36,29 @@ Mulai(Start)
     Print "Mahasiswa berhasil masuk"
     ELSE
     tampilkan "Mahasiswa gagal masuk"
-    END IF
+     END IF
 Akhir(End)
 
-2. 
+2. Membuat Flowchart
+(image)
+
+* Pseudocode untuk menyelesaikan masalah:
+Mulai (Start)
+    // Deklarasi variabel
+    Set String jenisPengguna, jenisPenggunaMahasiswa, jenisPenggunaDosen;
+    Set int SKS;
+
+    // Input Data 
+    input jenisPengguna;
+
+    // Proses
+````IF (kehadiran >= 75) THEN
+IF (nilaiTugas >= 60) THEN
+Print "Boleh ikut ujian"
+ELSE
+Print "Tidak boleh ikut ujian karena nilai tugas kurang"
+END IF
+ELSE
+Print "Tidak boleh ikut ujian"
+END IF
+````
