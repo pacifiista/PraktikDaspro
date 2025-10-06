@@ -27,14 +27,14 @@ Buatlah flowchart dan pseudocode untuk menyelesaikan masalah tersebut!
 
 * Pseudocode untuk menyelesaikan masalah:
 <h3> Mulai(Start) </h3>
-    // Deklarasi variabel
+````// Deklarasi variabel
     Set BOOLEAN kartuMahasiswa, registrasiOnline;
 
-    //Input data
+//Input data
     Input kartuMahasiswa, registrasiOnline;
-
-    // Proses
-````IF (kartuMahasiswa == "masuk") THEN
+ // Proses
+    
+IF (kartuMahasiswa == "masuk") THEN
 Print "Mahasiswa berhasil masuk" 
 ELSE 
 tampilkan "Mahasiswa gagal masuk" 
