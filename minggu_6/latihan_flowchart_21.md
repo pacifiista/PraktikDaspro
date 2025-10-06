@@ -26,7 +26,7 @@ Buatlah flowchart dan pseudocode untuk menyelesaikan masalah tersebut!
 <img width="550" height="545" alt="Screenshot 2025-10-06 205219" src="https://github.com/user-attachments/assets/adf829f4-5ccc-4891-bb8a-0dc93316457e" />
 
 * Pseudocode untuk menyelesaikan masalah:
-Mulai(Start)
+<h3> Mulai(Start) </h3>
     // Deklarasi variabel
     Set BOOLEAN kartuMahasiswa, registrasiOnline;
 
