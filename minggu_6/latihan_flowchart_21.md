@@ -42,12 +42,15 @@ Mulai(Start)
 Print "Mahasiswa berhasil masuk" 
 ELSE 
 tampilkan "Mahasiswa gagal masuk" 
-<<<<<<< HEAD
+
 END IF 
 Akhir(End)
 
+````
 2. Membuat Flowchart
-(image)
+[nested2.drawio](https://github.com/user-attachments/files/22737667/nested2.drawio)
+<img width="539" height="698" alt="Screenshot 2025-10-06 220314" src="https://github.com/user-attachments/assets/ab426f8e-2293-41b7-8a7c-8fa30c6b9309" />
+
 
 * Pseudocode untuk menyelesaikan masalah:
 Mulai (Start)
