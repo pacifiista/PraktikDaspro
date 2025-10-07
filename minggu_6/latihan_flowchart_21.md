@@ -29,12 +29,12 @@ Buatlah flowchart dan pseudocode untuk menyelesaikan masalah tersebut!
 
 
 Mulai(Start) 
-// Deklarasi variabel
+
+// Deklarasi variabel  
     Set BOOLEAN kartuMahasiswa, registrasiOnline;
   
 
-//Input data
-    Input kartuMahasiswa, registrasiOnline;
+//Input data<br>Input kartuMahasiswa, registrasiOnline;
 
     
 // Proses
