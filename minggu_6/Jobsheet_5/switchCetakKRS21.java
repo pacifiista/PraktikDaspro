@@ -1,4 +1,4 @@
-package minggu_6.Jobsheet_5;
+
 
 import java.lang.classfile.instruction.SwitchCase;
 import java.util.Scanner;
