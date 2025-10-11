@@ -93,15 +93,22 @@ Mulai (Start)
     input jenisPengguna;
 
     // Proses
-````IF ( jenisPenggunaMahasiswa == "jumlah SKS") THEN
-IF (SKS >= 12) THEN
-Print "Akses WiFi diberikan (mahasiswa aktif)"
-ELSE
-Print "Akses ditolak,SKS kurang dari 12"
-END IF
-ELSE
-Print "Akses ditolak"
-END IF
+if (jenisPengguna.equals("dosen")) {
+            System.out.println("Akses WiFi diberikan (dosen).");
+        } else if (jenisPengguna.equals("mahasiswa")) {
+            System.out.print("Masukkan jumlah SKS yang diambil: ");
+            int sks = sc.nextInt();
+
+            if (sks >= 12) {
+                System.out.println("Akses WiFi diberikan (mahasiswa aktif).");
+            } else {
+                System.out.println("Akses ditolak, SKS kurang dari 12.");
+            }
+        } else {
+            System.out.println("Akses ditolak.");
+        }
+
+        sc.close();
 ````
 Akhir (End)
 >>>>>>> e74c559e87cdafd9f60415abf2239fbfc14f703e
