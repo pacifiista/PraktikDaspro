@@ -15,7 +15,6 @@ terdapat keluaran “Registrasi ditolak. Silakan lunasi UKT terlebih dahulu”. 
 program tersebut dengan menambahkan struktur ELSE!
 Jawab:
 <img width="1920" height="1080" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/c10bd539-a8e4-4759-b4dd-f7974cc327ec" />
-
 <br>
 
 **Percobaan 2: SWITCH-CASE untuk mencetak KRS** <br>
@@ -30,7 +29,8 @@ Jawab: Peran dari sintaks default pada struktur SWITCH-CASE adalah untuk menyedi
 transformasi dari program cetak KRS menggunakan struktur SWITCH-CASE yang telah
 dibuat ke dalam bentuk IF-ELSE IF-ELSE
 Jawab: <img width="1920" height="1080" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/5427f847-289f-40f0-b0a2-315d976827f7" />
-<br> 
+<br>
+
 **Percobaan 3: NESTED IF untuk Mengecek Syarat Ujian Skripsi** <br>
 1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen?
 Mengapa demikian?
@@ -39,41 +39,32 @@ enyebabkan kondisi ini bernilai FALSE. Selain itu, syarat utama (bebas kompen) t
 <br> 
 2. jelaskan ptongan kode berikut! <br> if(bimbinganP1 >= 8 && bimbinganP2 >= 4) 
 Jawab: Potongan kode if(bimbinganP1 >= 8 && bimbinganP2 >= 4) berfungsi sebagai pengecekan dua syarat sekaligus untuk melanjutkan proses pendaftaran ujian skripsi.
-
 Inti Logika:
 bimbinganP1 >= 8: Memeriksa apakah jumlah log bimbingan dengan Pembimbing 1 sudah minimal 8 kali atau lebih.
-
 bimbinganP2 >= 4: Memeriksa apakah jumlah log bimbingan dengan Pembimbing 2 sudah minimal 4 kali atau lebih.
-
 && (AND Logika): Operator ini mengharuskan kedua syarat di atas terpenuhi (TRUE) agar mahasiswa dapat lolos pengecekan ini.
-
 Kesimpulan: Mahasiswa hanya akan memenuhi syarat jika kedua jumlah bimbingan (P1 ≥8 dan P2 ≥4) sudah terpenuhi.
 <br> 
 3. Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara
 runtut untuk semua kondisi!
 Jawab: Tahap 1: Pengecekan Syarat Utama (Bebas Kompen)
 Program memulai dengan mengecek jawaban mahasiswa pada pertanyaan "Apakah Anda bebas kompen?".
-
 Kondisi A: Kompen Lolos
 Jika Mahasiswa Menjawab "Yes":
 Kondisi if (bebasKompen.equalsIgnoreCase("Yes")) bernilai TRUE.
 Alur Berlanjut: Program pindah ke Tahap 2 (Pengecekan Log Bimbingan).
-
 Kondisi B: Kompen Gagal
 Jika Mahasiswa Menjawab "No":
 Kondisi if (bebasKompen.equalsIgnoreCase("Yes")) bernilai FALSE.
 Alur Selesai: Program langsung melompat ke blok ELSE level 1.
 Hasil: Sistem menampilkan pesan Penolakan yang berkaitan dengan Kompen.
-
 Tahap 2: Pengecekan Syarat Kedua (Log Bimbingan)
 Tahap ini hanya dieksekusi jika Kompen Lolos (Kondisi A). Program menggunakan Nested-IF untuk mengecek jumlah log bimbingan P1 dan P2.
-
 Kondisi C: Bimbingan Lolos
 Jika bimbinganP1 >= 8 DAN bimbinganP2 >= 4:
 Kondisi Nested-IF if (bimbinganP1 >= 8 && bimbinganP2 >= 4) bernilai TRUE.
 Alur Selesai: Program menjalankan blok kode Nested-IF.
 Hasil: Sistem menampilkan pesan Penerimaan. Mahasiswa dapat melanjutkan pendaftaran.
-
 Kondisi D: Bimbingan Gagal
 Jika salah satu atau kedua syarat log bimbingan TIDAK TERPENUHI (misalnya P1 = 7 atau P2 = 3):
 Kondisi Nested-IF bernilai FALSE.
