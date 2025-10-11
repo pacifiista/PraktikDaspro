@@ -8,7 +8,7 @@
 Jawab: Pengecekan di dalam struktur if tidak melibatkan operator relasional (seperti >, <, ==, !=) karena variabel yang diperiksa sudah bertipe boolean (misalnya, sudahBayarUKT bernilai true atau false).
 <br>
 
-2.. Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya? <br>
+2. Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya? <br>
 Jawab:Program akan melompati blok if dan melanjutkan ke baris kode berikutnya (jika ada). Output program hanya akan menampilkan teks di luar blok if atau tidak menampilkan apa-apa jika tidak ada kode lain.
 <br> 
 
@@ -60,19 +60,19 @@ Kondisi A: Kompen Lolos
 Jika Mahasiswa Menjawab "Yes":
 Kondisi if (bebasKompen.equalsIgnoreCase("Yes")) bernilai TRUE.
 Alur Berlanjut: Program pindah ke Tahap 2 (Pengecekan Log Bimbingan).
-Kondisi B: Kompen Gagal
+Kondisi B: Kompen Gagal <br>
 Jika Mahasiswa Menjawab "No":
 Kondisi if (bebasKompen.equalsIgnoreCase("Yes")) bernilai FALSE.
 Alur Selesai: Program langsung melompat ke blok ELSE level 1.
 Hasil: Sistem menampilkan pesan Penolakan yang berkaitan dengan Kompen. <br>
 > Tahap 2: Pengecekan Syarat Kedua (Log Bimbingan)
 Tahap ini hanya dieksekusi jika Kompen Lolos (Kondisi A). Program menggunakan Nested-IF untuk mengecek jumlah log bimbingan P1 dan P2.
-Kondisi C: Bimbingan Lolos
+Kondisi C: Bimbingan Lolos <br>
 Jika bimbinganP1 >= 8 DAN bimbinganP2 >= 4:
 Kondisi Nested-IF if (bimbinganP1 >= 8 && bimbinganP2 >= 4) bernilai TRUE.
 Alur Selesai: Program menjalankan blok kode Nested-IF.
 Hasil: Sistem menampilkan pesan Penerimaan. Mahasiswa dapat melanjutkan pendaftaran.
-Kondisi D: Bimbingan Gagal
+Kondisi D: Bimbingan Gagal <br>
 Jika salah satu atau kedua syarat log bimbingan TIDAK TERPENUHI (misalnya P1 = 7 atau P2 = 3):
 Kondisi Nested-IF bernilai FALSE.
 Alur Selesai: Program melompat ke blok ELSE dari Nested-IF (level 2). ''''
