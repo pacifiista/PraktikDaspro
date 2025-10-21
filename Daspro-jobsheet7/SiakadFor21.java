@@ -19,6 +19,6 @@ public class SiakadFor21 {
         }
     }
         System.out.println("Nilai tertinggi: " + tertinggi);
-        System.out.println("Nilai tertinggi: " + tertinggi);
+        System.out.println("Nilai terendah: " + terendah);
     }
 }
