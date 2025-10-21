@@ -25,7 +25,10 @@ public class SiakadFor21 {
     }
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
+<<<<<<< HEAD
         System.out.println("Jumlah mahasiswa lulus: " +lulus);
         System.out.println("Jumlah mahasiswa tidak lulus: " +tidakLulus);
+=======
+>>>>>>> d42da47627a0541db3ca753174323702aa9ad445
     }
 }
