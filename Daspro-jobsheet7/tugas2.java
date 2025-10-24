@@ -4,7 +4,8 @@ public class tugas2 {
         Scanner sc = new Scanner(System.in);
 
         // Deklarasi
-        int jenis=-1, durasi=0, total=0, biaya=0;
+        int jenis=-1, durasi=0, total=0, biaya=0; //Variabel jenis perlu diinisialisasi (misalnya dengan -1) agar bisa digunakan dalam kondisi awal seperti while (jenis != 0) sebelum pengguna memasukkan nilai.
+
 
         System.out.println("===== Program Hitung Biaya Parkir =====");
         
@@ -25,7 +26,7 @@ public class tugas2 {
             if (durasi <= 0) {
                 System.out.println("Durasi parkir tidak valid.");
                 continue;
-            }
+            } // hitung biaya
             if (durasi > 5) {
                 biaya = 12500;
                 System.out.println("Durasi parkir lebih dari 5 jam, tarif flat Rp. 12.500.");
