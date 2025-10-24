@@ -12,10 +12,10 @@ terjadi jika variabel tertinggi diinisialisasi 100 dan terendah diinisialisasi 0
 <br>
 3. Jelaskan fungsi dan alur kerja dari potongan kode berikut!
 > if (nilai > tertinggi) {
->   tertinggi = nilai;
->   } if (nilai < terendah){
->   terendah = nilai;
->   }
+  tertinggi = nilai;
+  } if (nilai < terendah){
+  terendah = nilai;
+  }
 
 
 ## Jawab: <br>
@@ -39,15 +39,15 @@ Maka, nilai pertama yang dimasukkan pasti lebih kecil dari 100 dan akan menggant
 3. Penjelasan alur kerja kode
 - Program menerima input nilai baru melalui variabel nilai.
 **kondisi pertama:** <br>
-> if (nilai > tertinggi)
+> if (nilai > tertinggi) <br>
 Artinya: jika nilai yang baru dimasukkan lebih besar dari nilai tertinggi sebelumnya, maka nilai tertinggi tersebut diperbarui menjadi nilai yang baru:
-> tertinggi = nilai;
+> tertinggi = nilai; <br>
 Dengan cara ini, tertinggi akan selalu menyimpan nilai paling besar dari seluruh data yang sudah dimasukkan sejauh ini. 
 <br>
 
 **Kondisi kedua**
 > if (nilai < terendah)
-Artinya: jika nilai yang baru dimasukkan lebih kecil dari nilai terendah sebelumnya, maka nilai terendah tersebut diperbarui menjadi nilai yang baru:
+Artinya: jika nilai yang baru dimasukkan lebih kecil dari nilai terendah sebelumnya, maka nilai terendah tersebut diperbarui menjadi nilai yang baru: <br>
 > terendah = nilai;
 Dengan cara ini, terendah akan selalu menyimpan nilai paling kecil dari semua data yang sudah dimasukkan.
 <br>
