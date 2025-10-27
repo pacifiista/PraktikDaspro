@@ -47,6 +47,9 @@ jawab :
 
 2. Buatlah flowchart untuk menentukan bonus yang diterima pegawai perusahaan. Setiap pegawai yang bekerja lebih dari 8 jam per hari akan menerima bonus sebesar 20% dari gaji harian. Program akan meminta input jumlah jam kerja dan gaji harian pegawai, lalu menghitung bonusnya. Program akan berhenti jika pengguna memasukkan jam kerja negatif, dan pegawai tersebut tidak diproses. Catatan: Perulangan dapat menggunakan for, while, atau do-while. Penambahan break atau continue jika diperlukan <br>
 jawab:
+[loop2_21.drawio](https://github.com/user-attachments/files/23156005/loop2_21.drawio)
+<img width="580" height="655" alt="Screenshot 2025-10-27 095623" src="https://github.com/user-attachments/assets/2d749217-fbf9-4f79-b966-44196b3d5ddb" />
+
 > PROGRAM PenentuBonusPegawai
 
 > DEKLARASI
