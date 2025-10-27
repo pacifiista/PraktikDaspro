@@ -4,7 +4,7 @@
  <h3> Kelas  : TI-1C </h3>
 
  ## Pertanyaan Percobaan 1 <br>
- 1. Sebutkan dan tunjukkan masing-masing komponen perulangan FOR pada kode program
+1. Sebutkan dan tunjukkan masing-masing komponen perulangan FOR pada kode program
 Percobaan 1!
 <br>
 2. Mengapa variabel tertinggi diinisialisasi 0 dan terendah diinisialisasi 100? Apa yang
@@ -12,10 +12,10 @@ terjadi jika variabel tertinggi diinisialisasi 100 dan terendah diinisialisasi 0
 <br>
 3. Jelaskan fungsi dan alur kerja dari potongan kode berikut!
 > if (nilai > tertinggi) {
->   tertinggi = nilai;
->   } if (nilai < terendah){
->   terendah = nilai;
->   }
+  tertinggi = nilai;
+  } if (nilai < terendah){
+  terendah = nilai;
+  }
 
 
 ## Jawab: <br>
@@ -39,15 +39,15 @@ Maka, nilai pertama yang dimasukkan pasti lebih kecil dari 100 dan akan menggant
 3. Penjelasan alur kerja kode
 - Program menerima input nilai baru melalui variabel nilai.
 **kondisi pertama:** <br>
-> if (nilai > tertinggi)
+> if (nilai > tertinggi) <br>
 Artinya: jika nilai yang baru dimasukkan lebih besar dari nilai tertinggi sebelumnya, maka nilai tertinggi tersebut diperbarui menjadi nilai yang baru:
-> tertinggi = nilai;
+> tertinggi = nilai; <br>
 Dengan cara ini, tertinggi akan selalu menyimpan nilai paling besar dari seluruh data yang sudah dimasukkan sejauh ini. 
 <br>
 
 **Kondisi kedua**
 > if (nilai < terendah)
-Artinya: jika nilai yang baru dimasukkan lebih kecil dari nilai terendah sebelumnya, maka nilai terendah tersebut diperbarui menjadi nilai yang baru:
+Artinya: jika nilai yang baru dimasukkan lebih kecil dari nilai terendah sebelumnya, maka nilai terendah tersebut diperbarui menjadi nilai yang baru: <br>
 > terendah = nilai;
 Dengan cara ini, terendah akan selalu menyimpan nilai paling kecil dari semua data yang sudah dimasukkan.
 <br>
@@ -55,7 +55,7 @@ Dengan cara ini, terendah akan selalu menyimpan nilai paling kecil dari semua da
 ## Pertanyaan percobaan 2 
 1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
 > if (nilai < 0 || nilai > 100) {
->    System..out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!")
+>    System..out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!") <br>
 >   continue;
 >  }
 - nilai < 0 || nilai > 100
@@ -95,9 +95,11 @@ inisialisasi dan update? <br>
 
 ## Jawab:
 1. Pada struktur do-while, perintah di dalam blok do { ... } selalu dijalankan minimal satu kali, meskipun kondisi di bagian while bernilai salah sejak awal.
-Artinya, jika pada input pertama pengguna langsung mengetik “batal”, maka perulangan tetap dijalankan satu kali. Program akan menampilkan pesan “Transaksi dibatalkan.” <br>
-2. Kondisi berhenti dalam program tersebut adalah ketika pengguna mengetikkan kata “batal” pada input nama pelanggan. Dikarekan adanya "break;" berfungsi untuk menghentikan perulangan secara paksa, meskipun kondisi while masih bernilai benar. <br>
-3. Nilai true berarti kondisi selalu benar, sehingga perulangan do-while akan berjalan tanpa batas (infinite loop) selama tidak ada instruksi yang menghentikannya secara manual.
+Artinya, jika pada input pertama pengguna langsung mengetik “batal”, maka perulangan tetap dijalankan satu kali. Program akan menampilkan pesan “Transaksi dibatalkan.”
+<img width="807" height="102" alt="Screenshot 2025-10-24 092348" src="https://github.com/user-attachments/assets/db87307a-4fc0-4237-9b78-f26aca5e36c1" />
+<br>
+3. Kondisi berhenti dalam program tersebut adalah ketika pengguna mengetikkan kata “batal” pada input nama pelanggan. Dikarekan adanya "break;" berfungsi untuk menghentikan perulangan secara paksa, meskipun kondisi while masih bernilai benar. <br>
+4. Nilai true berarti kondisi selalu benar, sehingga perulangan do-while akan berjalan tanpa batas (infinite loop) selama tidak ada instruksi yang menghentikannya secara manual.
 Namun, agar program tidak benar-benar berjalan tanpa akhir, digunakan perintah break sebagai pengontrol utama untuk keluar dari perulangan. <br>
-4. Hal ini karena do-while bekerja berdasarkan logika kondisi yang diperiksa di bagian while, bukan dari penghitung angka seperti pada perulangan for.
+5. Hal ini karena do-while bekerja berdasarkan logika kondisi yang diperiksa di bagian while, bukan dari penghitung angka seperti pada perulangan for.
 Pada program tersebut, selama kondisi true tetap bernilai benar, perulangan akan terus dijalankan. Tidak adanya inisialisasi atau update tidak menjadi masalah, karena kontrol perulangan dilakukan melalui input pengguna (yakni mengetik “batal”), bukan dari variabel penghitung. <br>
