@@ -9,12 +9,12 @@ Catatan: Perulangan dapat menggunakan for, while, atau do-while. Penambahan brea
 jawab : 
 > PROGRAM PelacakWaktuBelajarSiswa
 
-DEKLARASI
+> DEKLARASI
     totalJamBelajar : REAL = 0
     jamHarian     : REAL
     hari          : INTEGER = 1
 
-MULAI
+> MULAI
     TAMPILKAN "=== Pelacak Waktu Belajar Siswa ==="
     TAMPILKAN "Masukkan jam belajar harian Anda selama seminggu."
     TAMPILKAN "Jam belajar tidak boleh lebih dari 10 jam dalam sehari."
@@ -46,12 +46,12 @@ MULAI
 jawab:
 > PROGRAM PenentuBonusPegawai
 
-DEKLARASI
+> DEKLARASI
     jamKerja   : REAL
     gajiHarian : REAL
     bonus      : REAL
 
-MULAI
+> MULAI
     TAMPILKAN "=== Penentu Bonus Pegawai ==="
     TAMPILKAN "Masukkan jam kerja dan gaji harian pegawai. Program akan berhenti jika jam kerja negatif."
 
