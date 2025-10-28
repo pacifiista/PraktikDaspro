@@ -6,7 +6,10 @@
  ### SOAL <br>
  1. Buatlah flowchart untuk melacak waktu belajar siswa di rumah. Setiap hari siswa memasukkan jumlah jam belajar harian mereka. Program harus menghitung dan menampilkan total jam belajar selama seminggu. Jika siswa belajar lebih dari 10 jam dalam sehari, program harus mengabaikan input tersebut dan meminta input ulang, karena dianggap tidak mungkin.
 Catatan: Perulangan dapat menggunakan for, while, atau do-while. Penambahan break atau continue jika diperlukan <br>
-jawab : 
+jawab :
+[loop1_21.drawio](https://github.com/user-attachments/files/23155990/loop1_21.drawio)
+<img width="589" height="681" alt="Screenshot 2025-10-27 094104" src="https://github.com/user-attachments/assets/83de766d-72d4-4c70-915b-96cde1e50f3c" />
+
 > PROGRAM PelacakWaktuBelajarSiswa
 
 > DEKLARASI
@@ -44,6 +47,9 @@ jawab :
 
 2. Buatlah flowchart untuk menentukan bonus yang diterima pegawai perusahaan. Setiap pegawai yang bekerja lebih dari 8 jam per hari akan menerima bonus sebesar 20% dari gaji harian. Program akan meminta input jumlah jam kerja dan gaji harian pegawai, lalu menghitung bonusnya. Program akan berhenti jika pengguna memasukkan jam kerja negatif, dan pegawai tersebut tidak diproses. Catatan: Perulangan dapat menggunakan for, while, atau do-while. Penambahan break atau continue jika diperlukan <br>
 jawab:
+[loop2_21.drawio](https://github.com/user-attachments/files/23156005/loop2_21.drawio)
+<img width="580" height="655" alt="Screenshot 2025-10-27 095623" src="https://github.com/user-attachments/assets/2d749217-fbf9-4f79-b966-44196b3d5ddb" />
+
 > PROGRAM PenentuBonusPegawai
 
 > DEKLARASI
