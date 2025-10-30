@@ -20,12 +20,12 @@
 > <img width="825" height="656" alt="Screenshot 2025-10-30 213746" src="https://github.com/user-attachments/assets/a31a37e3-5889-4f00-a675-9abf33f16433" />
 
 3. Akibat dari kondisi **i < n menjadi i > n** yaitu Perulangan tidak akan berjalan sama sekali (nol iterasi), kecuali jika nilai awal i(inisialisasi) sudah lebih besar dari n. Karena, Asumsikan perulangan dimulai dengan i yang lebih kecil dari n, misalnya i=1 dan n=5.Kondisi Awal (Mengecek i > n): Ketika i=1, kondisi 1 > 5 adalah SALAH. Aturan Perulangan ialah Perulangan for akan langsung berhenti atau tidak akan pernah dimulai jika kondisi di awal sudah salah. <br>
-<img width="817" height="806" alt="Screenshot 2025-10-30 213556" src="https://github.com/user-attachments/assets/e0a0c555-120f-44c6-bf01-4032da4b9605" />
+> <img width="817" height="806" alt="Screenshot 2025-10-30 213556" src="https://github.com/user-attachments/assets/e0a0c555-120f-44c6-bf01-4032da4b9605" />
 4. Akibat dari perubahan kondisi **i++ (Lompatan bertambah 1) menjadi i--(Lommpatan berkurang 1)** yaitu Perulangan akan TIDAK PERNAH BERHENTI (Infinite Loop) jika kondisi awal dan mulai (misalnya i=1, kondisi i <= n dengan n positif) tidak diubah. Karena engan i--, kita bergerak MENJAUHI batas berhenti (menjadi 0, -1, -2, dst.). Karena nilai akan terus mengecil dan tidak akan pernah melewati batas atas n, kondisi untuk berhenti tidak akan pernah terpenuhi. <br>
-<img width="864" height="903" alt="Screenshot 2025-10-28 110749" src="https://github.com/user-attachments/assets/8c747b91-8847-41ec-8e7f-80bb6fadb85d" />
+> <img width="864" height="903" alt="Screenshot 2025-10-28 110749" src="https://github.com/user-attachments/assets/8c747b91-8847-41ec-8e7f-80bb6fadb85d" />
 
 5. Akibat dari perubahan kondisi **i++ (Lompatan bertambah 1) menjadi i+=2 (Lompatan bertambah 2)** yaitu Ketika langkah (step) diubah dari i++ menjadi i += 2, kita mengubah aturan pergerakan perulangan. Instruksi i += 2 berarti "tambahkan 2 pada nilai i setelah setiap putaran."Jika kita menjalankan perulangan ini dengan batas akhir n=6 (dengan asumsi inisialisasi awal adalah i=1), maka pola output yang dihasilkan adalah 1, 3, 5. <br>
-<img width="906" height="703" alt="Screenshot 2025-10-28 110728" src="https://github.com/user-attachments/assets/cdedeb64-c54f-4384-a08c-c4eaa9095022" />
+> <img width="906" height="703" alt="Screenshot 2025-10-28 110728" src="https://github.com/user-attachments/assets/cdedeb64-c54f-4384-a08c-c4eaa9095022" />
 
 
 ### Pertanyaan Percobaan 2
@@ -38,10 +38,10 @@ perulangan dalam? Apa akibatnya jika sintaks tersebut dihilangkan? <br>
 
 ### Jawaban
 1. Jika pada perulangan luar (yang biasanya mengurus baris), inisialisasi diubah dari **iOuter=1 menjadi iOuter=0**, akibatnya adalah perulangan tersebut akan memulai hitungan dari nol. Karena,  Perubahan ini menyebabkan iterasi (putaran) pertama yang dieksekusi adalah untuk nilai iOuter=0, bukan iOuter=1 (misalnya, dari 1 sampai 5 ada 5 putaran; dari 0 sampai 5 ada 6 putaran). Dalam konteks pencetakan pola, ini berarti akan ada satu baris tambahan yang dihasilkan, yaitu baris ke-0. <br>
-<img width="926" height="815" alt="Screenshot 2025-10-28 112036" src="https://github.com/user-attachments/assets/a1aa49e1-9565-408d-884f-88f2a097100a" />
+> <img width="926" height="815" alt="Screenshot 2025-10-28 112036" src="https://github.com/user-attachments/assets/a1aa49e1-9565-408d-884f-88f2a097100a" />
 
 2. Jika inisialisasi diubah dari **i=1 menjadi i=0**, akibatnya adalah perulangan dalam akan selalu memulai dari nol untuk setiap putaran perulangan luar. perubahan ini menyebabkan perulangan dalam memiliki satu putaran tambahan (mulai dari i=0). <br>
-<img width="949" height="965" alt="Screenshot 2025-10-28 112131" src="https://github.com/user-attachments/assets/40365d4a-3aec-4639-a01b-249a29bd89a2" />
+> <img width="949" height="965" alt="Screenshot 2025-10-28 112131" src="https://github.com/user-attachments/assets/40365d4a-3aec-4639-a01b-249a29bd89a2" />
 
 3. **Perbedaan Perulangan luar & dalam**: <br>
 - Perulangan Luar (Outer Loop) - Pengatur Baris: Tugas utamanya adalah mengatur berapa kali seluruh proses (termasuk perulangan dalam) harus diulang, yang secara visual berarti mengatur jumlah baris yang akan dihasilkan. Setiap satu putaran perulangan luar selesai, kita pindah ke baris baru.<br>
@@ -50,13 +50,13 @@ perulangan dalam? Apa akibatnya jika sintaks tersebut dihilangkan? <br>
 
 ### Pertanyaan Percobaan 3
 1. Perhatikan, apakah output yang dihasilkan dengan nilai n = 5 sesuai dengan tampilan berikut? <br>
-<img width="790" height="178" alt="Screenshot 2025-10-30 213221" src="https://github.com/user-attachments/assets/d73a8833-66c8-4621-9a46-167c7eb4c2ee" />
+> <img width="790" height="178" alt="Screenshot 2025-10-30 213221" src="https://github.com/user-attachments/assets/d73a8833-66c8-4621-9a46-167c7eb4c2ee" />
 
 2. Jika tidak sesuai, bagian mana saja yang harus diperbaiki/ditambahkan? Jelaskan setiap bagian yang perlu diperbaiki/ditambahkan. <br>
 
 ### Jawaban 
 1. Output yang dihasilkan dari nilai n = 5 sudah sesuai dengan tampilan seperti di soal. <br>
-<img width="844" height="781" alt="Screenshot 2025-10-30 213310" src="https://github.com/user-attachments/assets/dd2db93f-fee8-42ef-a5ae-ddb263d207b3" />
+> <img width="844" height="781" alt="Screenshot 2025-10-30 213310" src="https://github.com/user-attachments/assets/dd2db93f-fee8-42ef-a5ae-ddb263d207b3" />
 
 2. Tidak ada perbaikan dalam program tersebut dikarenakan sudah sesuai dengan tampilan yang diinginkan. <br>
 
