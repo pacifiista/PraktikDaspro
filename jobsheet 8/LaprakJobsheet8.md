@@ -14,8 +14,13 @@
 
 ### Jawaban
 1. Akibat dari perubahan inisialisasi **i=1 (mulai dari langkah ke-1) menjadi i=0 (mulai dari langkah ke-0)** yaitu Hitungan akan dimulai dari angka nol. Ini berarti total langkah yang diambil bertambah satu (misalnya, dari 1 sampai 5 ada 5 langkah; dari 0 sampai 4 juga 5 langkah, tetapi nilainya berbeda). Karena, Dalam pemrograman, banyak hal (seperti daftar atau array) dimulai dari nol (indeks 0). Mengubahnya menjadi i=0 membuat perulangan selaras dengan cara komputer menghitung, yaitu dari nol. <br>
+> <img width="775" height="658" alt="Screenshot 2025-10-30 213503" src="https://github.com/user-attachments/assets/30f03e96-f78d-4567-8a9d-82b15b2a81af" />
+
 2. Akibat dari perubahan inisialisasi **i<=n (Berhenti setelah mencapai n) menjadi i < n (berhenti sebelum mencapai n)** yaitu Perulangan akan berhenti satu langkah lebih awal. Nilai n itu sendiri tidak ikut diproses yang membedakan ialah adanya tanda "=". <br>
+> <img width="825" height="656" alt="Screenshot 2025-10-30 213746" src="https://github.com/user-attachments/assets/a31a37e3-5889-4f00-a675-9abf33f16433" />
+
 3. Akibat dari kondisi **i < n menjadi i > n** yaitu Perulangan tidak akan berjalan sama sekali (nol iterasi), kecuali jika nilai awal i(inisialisasi) sudah lebih besar dari n. Karena, Asumsikan perulangan dimulai dengan i yang lebih kecil dari n, misalnya i=1 dan n=5.Kondisi Awal (Mengecek i > n): Ketika i=1, kondisi 1 > 5 adalah SALAH. Aturan Perulangan ialah Perulangan for akan langsung berhenti atau tidak akan pernah dimulai jika kondisi di awal sudah salah. <br>
+<img width="817" height="806" alt="Screenshot 2025-10-30 213556" src="https://github.com/user-attachments/assets/e0a0c555-120f-44c6-bf01-4032da4b9605" />
 4. Akibat dari perubahan kondisi **i++ (Lompatan bertambah 1) menjadi i--(Lommpatan berkurang 1)** yaitu Perulangan akan TIDAK PERNAH BERHENTI (Infinite Loop) jika kondisi awal dan mulai (misalnya i=1, kondisi i <= n dengan n positif) tidak diubah. Karena engan i--, kita bergerak MENJAUHI batas berhenti (menjadi 0, -1, -2, dst.). Karena nilai akan terus mengecil dan tidak akan pernah melewati batas atas n, kondisi untuk berhenti tidak akan pernah terpenuhi. <br>
 <img width="864" height="903" alt="Screenshot 2025-10-28 110749" src="https://github.com/user-attachments/assets/8c747b91-8847-41ec-8e7f-80bb6fadb85d" />
 
@@ -45,10 +50,14 @@ perulangan dalam? Apa akibatnya jika sintaks tersebut dihilangkan? <br>
 
 ### Pertanyaan Percobaan 3
 1. Perhatikan, apakah output yang dihasilkan dengan nilai n = 5 sesuai dengan tampilan berikut? <br>
+<img width="790" height="178" alt="Screenshot 2025-10-30 213221" src="https://github.com/user-attachments/assets/d73a8833-66c8-4621-9a46-167c7eb4c2ee" />
+
 2. Jika tidak sesuai, bagian mana saja yang harus diperbaiki/ditambahkan? Jelaskan setiap bagian yang perlu diperbaiki/ditambahkan. <br>
 
 ### Jawaban 
 1. Output yang dihasilkan dari nilai n = 5 sudah sesuai dengan tampilan seperti di soal. <br>
+<img width="844" height="781" alt="Screenshot 2025-10-30 213310" src="https://github.com/user-attachments/assets/dd2db93f-fee8-42ef-a5ae-ddb263d207b3" />
+
 2. Tidak ada perbaikan dalam program tersebut dikarenakan sudah sesuai dengan tampilan yang diinginkan. <br>
 
 ### Pertanyaan percobaan 4
