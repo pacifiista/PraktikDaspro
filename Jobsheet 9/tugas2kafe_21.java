@@ -4,8 +4,10 @@ public class tugas2kafe_21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("------------------------------------");
+        System.out.println("SELAMAT DATANG DI CAFE DEMI UNGKER");
         // Input jumlah pesanan
-        System.out.println("====================================");
+        System.out.println("------------------------------------");
         System.out.print("Masukkan jumlah pesanan anda: ");
         int jmlPesanan = sc.nextInt();
         sc.nextLine(); // membersihkan newline
