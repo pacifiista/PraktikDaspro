@@ -24,7 +24,7 @@
 3. Setelah mengubah statement pada langkah 4, menghasilkan output yang sama seperti soal yaitu 3,13,-7, dan 17 dikarenakan "i < 4" yang beratikan i kurang dari indeks 4. <br> Dimana kita mendeklarasikan "int [] bilangan = new int[4];" (indeks 0,1,2,3). <br>
 <img width="802" height="882" alt="Screenshot 2025-11-04 112620" src="https://github.com/user-attachments/assets/2f8eef07-79b6-4d7a-a5ef-7de0f5cb6df3" />
 
-4. Yang terdapat pada output program setelah mengubah statement menjadi "i <= 4" ialah "Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4" <br> yang berarti - Tapi program mencoba mengakses bilangan[4], yang tidak ada karena indeks 4 sudah di luar batas. <br>
+4. Yang terdapat pada output program setelah mengubah statement menjadi "i <= 4" ialah "Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4" <br> yang berarti program mencoba mengakses bilangan[4], yang tidak ada karena indeks 4 sudah di luar batas. <br>
 <img width="861" height="47" alt="Screenshot 2025-11-04 112647" src="https://github.com/user-attachments/assets/85d60bab-9195-4946-9468-bea60f966d38" />
 
 
