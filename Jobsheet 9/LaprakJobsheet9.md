@@ -11,7 +11,7 @@
 > for (int i =0; i < 4; i++>) { <br>
     System.out.println(bil[i]); <br>
 } <br>
-Apa keluaran dari program? Jelaskan maksud dari statement tersebut. <br>
+> Apa keluaran dari program? Jelaskan maksud dari statement tersebut. <br>
 4. Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian? <br>
 
 ### Jawaban
