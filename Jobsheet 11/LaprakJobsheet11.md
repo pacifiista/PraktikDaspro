@@ -58,21 +58,32 @@ System.out.println("Penonton pada baris ke-" + (i+1) + ": " + String.join(", ", 
 1. Tidak. Pengisian elemen array tidak wajib dilakukan secara berurutan. Kita bebas menentukan indeks mana yang ingin diisi terlebih dahulu, <br> selama indeks tersebut berada dalam rentang yang valid sesuai ukuran array, misalnya angka[5] = 7; pada array berukuran 5 akan menyebabkan ArrayIndexOutOfBoundsException. <br>
 2. Nilai  pada daftar nama penonton biasanya muncul karena **elemen array belum diisi dengan data apa pun.** <br> Dalam konteks pemrograman, khususnya saat menggunakan array bertipe objek seperti  di Java, setiap elemen yang belum diinisialisasi secara eksplisit akan memiliki nilai default. <br>
 3. Berikut ialah setelah ditambahkan daftar penonton: <br>
-image
+<img width="894" height="974" alt="Screenshot 2025-11-11 110828" src="https://github.com/user-attachments/assets/38db1400-2cd0-4ab5-8073-fb3ce609179c" />
+
 4.  - penonton.length menunjukkan jumlah baris dalam array dua dimensi penonton. Karena array dibuat dengan new String[4][2], maka penonton.length bernilai 4, artinya ada 4 baris. <br>
 - penonton[0].length menunjukkan jumlah kolom pada baris pertama. Karena setiap baris memiliki 2 kolom, maka hasilnya adalah 2. <br>
 **Apakah penonton[0].length, penonton[1].length,penonton[2].length, dan penonton[3].length memiliki nilai yang sama?** <br>
 Ya, penonton[0].length, penonton[1].length, penonton[2].length, dan penonton[3].length memiliki nilai yang sama, yaitu 2. <br>
 5. Berikut ialah hasil modifikasi menggunakan For Loop: <br>
 Dimana manghasilkan output seperti di gambar yang berartikan <br>
+<img width="894" height="930" alt="Screenshot 2025-11-14 124938" src="https://github.com/user-attachments/assets/addb87ef-5efd-4e85-a200-0a00e755e140" />
+
 - Dalam perulangan for, mencetak panjang setiap baris menggunakan penonton[i].length, dan hasilnya adalah 2 untuk semua baris. <br> Ini menunjukkan bahwa setiap baris memiliki dua elemen, yaitu dua nama penonton. <br>
 6. Berikut ialah hasil modifilasi program dengan menggunakan Foreach loop: <br>
+<img width="830" height="907" alt="Screenshot 2025-11-14 130341" src="https://github.com/user-attachments/assets/1bdb768b-07c7-4939-acd8-7cc5ed2412d6" />
+
 Dimana menghasilkan output yang **sama** karena Struktur array yang tidak berubah, Perulangan foreach adalah cara yang lebih ringkas dan aman untuk menelusuri elemen array, terutama saat kamu tidak membutuhkan indeks. <br> Dalam kasus ini, baik for biasa maupun foreach menghasilkan output yang sama karena keduanya mengakses elemen yang sama dan mencetak <br>
 7. Berikut ialah hasil modifikasi menggunakan For Loop: <br>
+<img width="881" height="945" alt="Screenshot 2025-11-14 130900" src="https://github.com/user-attachments/assets/484392ac-b98e-4236-aeb3-2d805578d7a3" />
+
 Dimana manghasilkan output penonton yang berada pada array baris 3 yaitu **Eka & Farhan** <br>
 8.  Berikut ialah hasil modifikasi menggunakan Foreach Loop: <br>
+<img width="925" height="953" alt="Screenshot 2025-11-14 131439" src="https://github.com/user-attachments/assets/67ccfd23-4b97-47d7-b5ea-9bf026c21aa5" />
+
 Dimana manghasilkan output penonton yang berada pada array baris 3 yaitu **Eka & Farhan** <br> dimana menghasilkan output yang sama karena keduanya mengakses elemen yang sama dan mencetak <br>
 9. Berikut ialah hasil modifikasi: <br>
+<img width="1078" height="924" alt="Screenshot 2025-11-14 131846" src="https://github.com/user-attachments/assets/746eaaaa-2e7a-432d-9861-12d1e298a113" />
+
 Dimana menampilkan output semua daftar penonton pada array <br>
 10. **Kelebihan dan kekurangan Foreach:** <br>
 **Kelebihan:** <br>
@@ -100,9 +111,17 @@ Dimana menampilkan output semua daftar penonton pada array <br>
 ### Jawaban
 1. Tidak, pengisian elemen array dari Scanner tidak harus dilakukan secara berurutan mulai dari indeks ke-0, <br> tapi jika tidak diisi dari indeks ke-0, kamu harus hati-hati terhadap nilai default (null, 0, dll). <br>
 2. Berikut ialah hasil modifikasi: <br>
+<img width="881" height="720" alt="Screenshot 2025-11-14 133150" src="https://github.com/user-attachments/assets/0c2ff489-c305-4fb4-a976-afb5d2e9b27e" />
+
 3. Berikut ialah hasil modifikasi: <br>
+<img width="1185" height="237" alt="Screenshot 2025-11-14 133321" src="https://github.com/user-attachments/assets/65bd78d0-0d40-403b-86be-0c9931aae72f" />
+
 4. Berikut ialah hasil modifikasi: <br>
+<img width="1363" height="542" alt="Screenshot 2025-11-14 133415" src="https://github.com/user-attachments/assets/10988747-7637-4054-a414-9c20259dcdc3" />
+
 5. Berikut ialah hasil modifikasi: <br>
+<img width="825" height="244" alt="Screenshot 2025-11-14 133441" src="https://github.com/user-attachments/assets/229a4bc3-236a-42d5-93f0-71f11360038b" />
+
 
 ### Soal Percobaan 3 <br>
 1. Tambahkan kode program sebagai berikut: <br>
@@ -119,12 +138,16 @@ System.out.println( "Panjang baris ke-" + (i+1) + ": " +myNumbers[i].length); <b
 
 ### Jawaban <br>
 1. Berikut ialah hasil output program setelah ditambahkan kode: <br>
+<img width="645" height="587" alt="Screenshot 2025-11-14 134115" src="https://github.com/user-attachments/assets/604bdf25-a8c7-45a2-bf4e-c6d931c3208c" />
+
 2. Arrays.toString() adalah alat bantu yang sangat praktis untuk melihat isi array secara langsung tanpa harus membuat perulangan manual. <br> Misalnya, jika kita memiliki array <br>
 > String[] nama = {"Amin", "Bena", "Candra"}; <br>
 maka System.out.println(Arrays.toString(nama)); <br>
 akan menghasilkan output [Amin, Bena, Candra]. <br>
 3. Nilai default untuk  adalah 0 <br>
 4. Berikut ialah hasil output program setelah ditambahkan kode: <br>
+<img width="780" height="587" alt="Screenshot 2025-11-14 134158" src="https://github.com/user-attachments/assets/eb3e00d1-ee89-497e-9a08-cf4971078b0e" />
+
 5. Dalam Java, panjang array tidak dapat dimodifikasi setelah diinstansiasi. <br> Artinya, begitu sebuah array dibuat dengan ukuran tertentu, jumlah elemen di dalamnya bersifat tetap. <br>
 
 ### Soal Percobaan 4 <br>
@@ -132,6 +155,8 @@ akan menghasilkan output [Amin, Bena, Candra]. <br>
 
 ### Jawaban <br>
 1. Berikut ialah hasil modifikasi kode program SIAKAD untuk mengakomodasi jumlah siswa dan jumlah mata kuliah yang dinamis.<br>
+<img width="977" height="1001" alt="Screenshot 2025-11-14 134823" src="https://github.com/user-attachments/assets/32b695ab-1138-4a2d-a938-edef4ebbe420" />
+
 
 ### Tugas <br>
 1. Implementasikan flowchart yang telah dibuat pada latihan Dasar Pemrograman (Teori) ke dalam kode program Java. <br>
