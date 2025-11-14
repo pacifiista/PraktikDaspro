@@ -31,7 +31,7 @@ public class BioskopWithScanner21 {
                     
                     if (baris > 0 && baris <= penonton.length && kolom > 0 && kolom <= penonton[0].length) {
                         if (penonton[baris - 1][kolom - 1] == null) { // berfungsi untuk mengecek apakah data masi kosong, jika masih maka data akan disimpan
-                            penonton[baris - 1][kolom - 1] = nama;
+                            penonton[baris - 1][kolom - 1] = nama; // fungsi - 1 untul input baris dan kolom dari indeks 0 (1)
                             System.out.println("Data berhasil disimpan.");
                             break;
                         } else {
