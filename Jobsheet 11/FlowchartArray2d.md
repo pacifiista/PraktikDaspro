@@ -13,6 +13,21 @@ Sebuah perusahaan melakukan survei untuk mengukur kepuasan pelanggan terhadap la
 
 ### Jawab <br>
 1. Menyimpan hasil survey <br>
+<img width="345" height="896" alt="Screenshot 2025-11-14 142634" src="https://github.com/user-attachments/assets/22496121-a8ca-494f-84d7-2b1048c54001" />
+<br>
+
 2. Menampilkan nilai rata-rata untuk setiap responden <br>
+<img width="363" height="897" alt="Screenshot 2025-11-14 143751" src="https://github.com/user-attachments/assets/bb74ada4-766d-4016-91e8-80cd66a1ff69" />
+<br>
+
+
 3. Menampilkan nilai rata-rata untuk setiap pertanyaan <br>
+<img width="360" height="900" alt="Screenshot 2025-11-14 144212" src="https://github.com/user-attachments/assets/b46b4cbc-df16-4645-8f58-f52ffa582229" />
+<br>
+
+
 4. Menampilkan nilai rata-rata secara keseluruhan <br>
+<img width="328" height="896" alt="Screenshot 2025-11-14 145225" src="https://github.com/user-attachments/assets/fbc231c5-0517-4dd7-a76d-86d638834bd2" />
+<br>
+
+
