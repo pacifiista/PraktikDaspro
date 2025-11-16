@@ -46,11 +46,19 @@ public class Tugas1 {
             for (int i = 0; i < surveyData.length; i++) {
                 total += surveyData[i][j];
             }
-            double rataRata = total /surveyData[i].length;
+            double rataRata = total /surveyData[j].length;
             System.out.printf("Pertanyaan %d: %.2f%n", j+1, rataRata);
         }
-
-
+        // d. Menampilkan nilai Rata-rata secara keseluruhan 
+        double totalKeseluruhan=0;
+        int jmlData = surveyData.length * surveyData[0].length;
+        for (int i = 0; i < surveyData.length; i++) {
+            for (int j = 0; j < surveyData[i].length; j++) {
+                totalKeseluruhan += surveyData[i][j];
+            }
+        }
+        double rataKeseluruhan = totalKeseluruhan / jmlData;
+        System.out.printf("%nRata-rata Keseluruhan: %.2f%n", rataKeseluruhan);
 
     }
 }
