@@ -39,7 +39,16 @@ public class Tugas1 {
             double rataRata = total /surveyData[i].length;
             System.out.printf("Responden %d: %.2f%n", i+1, rataRata);
         }
-        
+        // c. Menampilkan nilai rata-rata untuk setiap pertanyaan
+        System.out.println("\nRata-rata per Pertanyaan: ");
+        for (int j = 0; j < surveyData[0].length; j++) {
+            double total=0;
+            for (int i = 0; i < surveyData.length; i++) {
+                total += surveyData[i][j];
+            }
+            double rataRata = total /surveyData[i].length;
+            System.out.printf("Pertanyaan %d: %.2f%n", j+1, rataRata);
+        }
 
 
 
