@@ -163,6 +163,7 @@ akan menghasilkan output [Amin, Bena, Candra]. <br>
 
 ### Jawaban <br>
 1. Berikut ialah implementasi dari Flowchart tugas di ppt daspro Array 2d : <br>
+<img width="610" height="954" alt="Screenshot 2025-11-16 101156" src="https://github.com/user-attachments/assets/98bab1fe-3f4e-45a5-8fc3-031d2b1b1d2f" />
 
 
 
