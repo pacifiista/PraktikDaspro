@@ -1,6 +1,6 @@
 public class kafe21 {
 
-     public static void menu() { //fungsi tanpa parameter percobaan 1
+     public static void main(String[] args) { //fungsi tanpa parameter percobaan 1
          System.out.println("========== Kafe 21 Menu ==========");
          System.out.println("1. Kopi Hitam - Rp 15,000");
          System.out.println("2. Capppuccino - Rp 20,000");
@@ -11,8 +11,5 @@ public class kafe21 {
          System.out.println("===================================");
          System.out.println("Silakan pilih menu:");
         
-     }
-     public static void main(String[] args) {
-         menu();
      }
 }
