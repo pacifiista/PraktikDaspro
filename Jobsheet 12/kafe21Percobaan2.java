@@ -25,7 +25,6 @@ public class kafe21Percobaan2 {
         System.out.println("===================================");
         System.out.println("Silakan pilih menu:");
 
-
     }
         }
 
