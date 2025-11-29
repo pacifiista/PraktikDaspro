@@ -17,19 +17,19 @@
 - Tipe kembalian (return type) menentukan apakah fungsi mengembalikan nilai atau tidak. <br>
 - Jadi, sebuah fungsi bisa saja tanpa parameter tetapi tetap mengembalikan nilai. <br>
 2. Daftar menu bisa ditampilkan tanpa menggunakan fungsi Menu(). Caranya adalah dengan langsung menuliskan perintah System.out.println(...) di dalam main <br>
-> public class kafe21 {
-    public static void Menu() { // modifikasi fungsi dengan nama Menu
-        System.out.println("========== Kafe 21 Menu ==========");
-        System.out.println("1. Kopi Hitam - Rp 15,000");
-        System.out.println("2. Capppuccino - Rp 20,000");
-        System.out.println("3. Latte - Rp 22,000");
-        System.out.println("4. Teh Tarik - Rp 12,000");
-        System.out.println("5. Roti Bakar - Rp 10,000");
-        System.out.println("6. Mie Goreng - Rp 18,000");
-        System.out.println("===================================");
-        System.out.println("Silakan pilih menu:");
-    }
-}
+> public class kafe21 { <br>
+    public static void Menu() { // modifikasi fungsi dengan nama Menu <br>
+        System.out.println("========== Kafe 21 Menu =========="); <br>
+        System.out.println("1. Kopi Hitam - Rp 15,000"); <br>
+        System.out.println("2. Capppuccino - Rp 20,000"); <br>
+        System.out.println("3. Latte - Rp 22,000"); <br>
+        System.out.println("4. Teh Tarik - Rp 12,000"); <br>
+        System.out.println("5. Roti Bakar - Rp 10,000"); <br>
+        System.out.println("6. Mie Goreng - Rp 18,000"); <br>
+        System.out.println("==================================="); <br>
+        System.out.println("Silakan pilih menu:"); <br>
+    } <br>
+} <br>
 
 3. Menggunakan fungsi Menu() memiliki keuntungan besar dibandingkan menuliskan semua perintah langsung di dalam main. Dengan adanya fungsi khusus, kode menjadi lebih rapi dan terstruktur karena tugas menampilkan daftar menu dipisahkan dari alur utama program. Fungsi ini juga memudahkan pemanggilan ulang, sehingga jika menu perlu ditampilkan berkali-kali, programmer cukup memanggil Menu() tanpa harus menulis ulang baris perintah yang sama. <br> Selain itu, perubahan harga atau penambahan menu cukup dilakukan di satu tempat, yaitu di dalam fungsi, sehingga lebih mudah dipelihara dan mengurangi duplikasi kode. Singkatnya, fungsi Menu()membuat program lebih modular, mudah dibaca, dan efisien untuk dikembangkan. <br>
 4. Alur eksekusi program ketika fungsi Menu() dipanggil dari main dapat dijelaskan singkat seperti ini: <br>
@@ -127,9 +127,9 @@ menu)? <br>
 - "int jumlahPesanan" : Digunakan untuk mengalikan harga satuan dengan jumlah pesanan agar diperoleh total harga. <br>
 3. Berikut ialah hasil modifikasi program percobaan 3 pada no **3 & 4**: <br>
 > import java.util.Scanner;
-public class kafe21Percobaan3 {
-    public static void main(String namaPelanggan, boolean isMember) { //fungsi paramenter percobaan 2
-        System.out.println("Selamat datang di Kafe 21, " + namaPelanggan + "!");
+> public class kafe21Percobaan3 {
+> public static void main(String namaPelanggan, boolean isMember) { //fungsi paramenter percobaan 2
+>        System.out.println("Selamat datang di Kafe 21, " + namaPelanggan + "!");
         
         if (isMember) {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian.");
