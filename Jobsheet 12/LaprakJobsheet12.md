@@ -219,20 +219,20 @@ menu)? <br>
 - String... disebut varargs (variable arguments) dalam Java. <br>
 Dengan varargs, kita bisa memanggil fungsi daftarPengunjung() dengan satu nama, dua nama, atau banyak nama sekaligus, tanpa harus mendefinisikan parameter berulang seperti String nama1, String nama2, String nama3. <br>
 2. Berikut ialah modifikasi program: <br>
-> public class PengunjungCafe21 {
-    static void daftarPengunjung(String...namaPengunjung) {
-        System.out.println("Daftar nama Pengunjung: ");
-        // menggunakan for-each loop untuk menampilkan nama pengunjung modified
-        for (String nama : namaPengunjung) {
-            System.out.println("- " + nama);
-        }
-    }
-    public static void main(String[] args) {
-        daftarPengunjung("Ali", "Budi", "Citra");
-        daftarPengunjung("Andi");
-        daftarPengunjung("Doni", "Eti", "Fahmi", "Galih");
-    }
-}
+> public class PengunjungCafe21 { <br>
+    static void daftarPengunjung(String...namaPengunjung) { <br>
+        System.out.println("Daftar nama Pengunjung: "); <br>
+        // menggunakan for-each loop untuk menampilkan nama pengunjung modified <br>
+        for (String nama : namaPengunjung) { <br>
+            System.out.println("- " + nama); <br>
+        } <br>
+    } <br>
+    public static void main(String[] args) { <br>
+        daftarPengunjung("Ali", "Budi", "Citra"); <br>
+        daftarPengunjung("Andi"); <br>
+        daftarPengunjung("Doni", "Eti", "Fahmi", "Galih"); <br>
+    } <br>
+} <br>
 
 3. Tidak, di Java tidak bisa menggunakan dua tipe data varargs (...) dalam satu fungsi. <br> 
 - Varargs (...) adalah cara untuk menerima jumlah argumen yang tidak tetap dalam bentuk array. <br>
