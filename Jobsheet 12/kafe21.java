@@ -1,15 +1,26 @@
 public class kafe21 {
+    public static void Menu() { // modifikasi fungsi dengan nama Menu
+        System.out.println("========== Kafe 21 Menu ==========");
+        System.out.println("1. Kopi Hitam - Rp 15,000");
+        System.out.println("2. Capppuccino - Rp 20,000");
+        System.out.println("3. Latte - Rp 22,000");
+        System.out.println("4. Teh Tarik - Rp 12,000");
+        System.out.println("5. Roti Bakar - Rp 10,000");
+        System.out.println("6. Mie Goreng - Rp 18,000");
+        System.out.println("===================================");
+        System.out.println("Silakan pilih menu:");
+    }
 
-     public static void main(String[] args) { //fungsi tanpa parameter percobaan 1
-         System.out.println("========== Kafe 21 Menu ==========");
-         System.out.println("1. Kopi Hitam - Rp 15,000");
-         System.out.println("2. Capppuccino - Rp 20,000");
-         System.out.println("3. Latte - Rp 22,000");
-         System.out.println("4. Teh Tarik - Rp 12,000");
-         System.out.println("5. Roti Bakar - Rp 10,000");
-         System.out.println("6. Mie Goreng - Rp 18,000");
-         System.out.println("===================================");
-         System.out.println("Silakan pilih menu:");
+    //  public static void main(String[] args) { //fungsi tanpa parameter percobaan 1
+    //      System.out.println("========== Kafe 21 Menu ==========");
+    //      System.out.println("1. Kopi Hitam - Rp 15,000");
+    //      System.out.println("2. Capppuccino - Rp 20,000");
+    //      System.out.println("3. Latte - Rp 22,000");
+    //      System.out.println("4. Teh Tarik - Rp 12,000");
+    //      System.out.println("5. Roti Bakar - Rp 10,000");
+    //      System.out.println("6. Mie Goreng - Rp 18,000");
+    //      System.out.println("===================================");
+    //      System.out.println("Silakan pilih menu:");
         
-     }
+    //  }
 }

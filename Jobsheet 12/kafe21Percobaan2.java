@@ -1,10 +1,19 @@
+
 public class kafe21Percobaan2 {
-    public static void main(String namaPelanggan, boolean isMember) { //fungsi paramenter percobaan 2
+    public static void main(String namaPelanggan, boolean isMember, String kodePromo) { //fungsi paramenter percobaan 2
         System.out.println("Selamat datang di Kafe 21, " + namaPelanggan + "!");
         
         if (isMember) {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian.");
         } 
+
+        if (kodePromo.equals("DISKON50")) {
+            System.out.println("Kode promo valid! Anda mendapatkan diskon tambahan 50%.");
+        } else if (kodePromo.equals("DISKON30")) {
+            System.out.println("Kode promo valid! Anda mendapatkan diskon tambahan 30%.");
+        } else  {
+            System.out.println("Kode promo tidak valid.");
+        }
 
         System.out.println("========== Kafe 21 Menu ==========");
         System.out.println("1. Kopi Hitam - Rp 15,000");
@@ -18,7 +27,6 @@ public class kafe21Percobaan2 {
 
 
     }
-    public static void main(String[] args) {
-        main("Andi", true); //memanggil fungsi main dengan parameter nama dan status member
-    }
-}
+        }
+
+
