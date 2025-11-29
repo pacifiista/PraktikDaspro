@@ -7,6 +7,7 @@ public class kafe21Percobaan2 {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian.");
         } 
 
+        // Soal Percobaan 2 No 6
         if (kodePromo.equals("DISKON50")) {
             System.out.println("Kode promo valid! Anda mendapatkan diskon tambahan 50%.");
         } else if (kodePromo.equals("DISKON30")) {
