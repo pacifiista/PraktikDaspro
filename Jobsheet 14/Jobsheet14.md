@@ -1,4 +1,4 @@
-# Jobsheet 14 Fungsi 2
+[Percobaan2.java](https://github.com/user-attachments/files/23875631/Percobaan2.java)[Tugas.java](https://github.com/user-attachments/files/23875622/Tugas.java)# Jobsheet 14 Fungsi 2
  <h1> Nama   : Naura Fadhilla Aditya Putri </h1>
  <h3> Nim    : 254107020007 </h3>
  <h3> Kelas  : TI-1C </h3>
@@ -26,6 +26,35 @@ hitungPangkat(2,5) dicetak 2x2x2x2x2x1 = 32 <br>
 ### Jawaban <br>
 1. Pada *Percobaan2*, pemanggilan fungsi rekursif `hitungPangkat(x, y)` akan terus dijalankan selama nilai pangkat (`y`) belum mencapai **0**. <br> Saat `y == 0`, fungsi berhenti (base case) dan mengembalikan nilai `1`, lalu hasil dikembalikan ke pemanggilan sebelumnya hingga menghasilkan nilai akhir. <br>
 2. Berikut ialah hasil modifikasi program: <br>
+[Uploading Percobaan2.java…]import java.util.Scanner;
+
+public class Percobaan2 {
+    static int hitungPangkat(int x, int y) {
+        if (y == 0) {
+            System.out.print("1"); // base case dicetak
+            return 1;
+        } else {
+            // modifikasi
+            System.out.print(x + "x"); // cetak bilangan tiap kali dipanggil
+            return x * hitungPangkat(x, y - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int bilangan, pangkat;
+        System.out.print("Bilangan yang dihitung: ");
+        bilangan = sc.nextInt();
+        System.out.print("Pangkat: ");
+        pangkat = sc.nextInt();
+
+        // modifikasi 
+        System.out.print("Deret: ");
+        int hasil = hitungPangkat(bilangan, pangkat);
+        System.out.println(" = " + hasil);
+    }
+}()
+
 
 ### Pertanyaan Percobaan 3 <br>
 1. Pada Percobaan3, sebutkan blok kode program manakah yang merupakan “base case” dan “recursion call”! <br>
@@ -70,6 +99,51 @@ hitungLaba(100000, 3) <br>
 
 ### Jawaban <br>
 1. Berikut ialah hasil program: <br>
+[Uploadiimport java.util.Scanner;
+
+public class Tugas {
+
+    // Fungsi rekursif untuk menjumlahkan array dari belakang
+    static int totalRekursif(int[] data, int index) {
+        if (index < 0) {
+            return 0; // base case
+        } else {
+            return data[index] + totalRekursif(data, index - 1); // recursion call
+        }
+    }
+
+    // Fungsi iteratif untuk menjumlahkan array
+    static int totalIteratif(int[] data) {
+        int total = 0;
+        for (int i = 0; i < data.length; i++) {
+            total += data[i];
+        }
+        return total;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan jumlah angka yang ingin dihitung (N): ");
+        int N = sc.nextInt();
+
+        int[] angka = new int[N];
+
+        // Input angka dari belakang ke depan
+        for (int i = N - 1; i >= 0; i--) {
+            System.out.print("Masukkan angka ke–" + (i + 1) + ": ");
+            angka[i] = sc.nextInt();
+        }
+
+        // Hitung dan cetak total dengan rekursif
+        int hasilRekursif = totalRekursif(angka, N - 1);
+        System.out.println("Total dari " + N + " angka (rekursif): " + hasilRekursif);
+
+        // Hitung dan cetak total dengan iteratif
+        int hasilIteratif = totalIteratif(angka);
+        System.out.println("Total dari " + N + " angka (iteratif): " + hasilIteratif);
+    }
+}ng Tugas.java…]()
+
 
 
 
