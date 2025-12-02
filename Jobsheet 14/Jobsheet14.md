@@ -26,8 +26,7 @@ hitungPangkat(2,5) dicetak 2x2x2x2x2x1 = 32 <br>
 ### Jawaban <br>
 1. Pada *Percobaan2*, pemanggilan fungsi rekursif `hitungPangkat(x, y)` akan terus dijalankan selama nilai pangkat (`y`) belum mencapai **0**. <br> Saat `y == 0`, fungsi berhenti (base case) dan mengembalikan nilai `1`, lalu hasil dikembalikan ke pemanggilan sebelumnya hingga menghasilkan nilai akhir. <br>
 2. Berikut ialah hasil modifikasi program: <br>
-[Percobaan2.java](https://github.com/user-attachments/files/23875645/Percobaan2.java)
-import java.util.Scanner;
+[Uploadinimport java.util.Scanner;
 
 public class Percobaan2 {
     static int hitungPangkat(int x, int y) {
@@ -54,8 +53,10 @@ public class Percobaan2 {
         int hasil = hitungPangkat(bilangan, pangkat);
         System.out.println(" = " + hasil);
     }
-} Percobaan2.java…]()
+}g Percobaan2.java…]()
 
+
+ 
 ### Pertanyaan Percobaan 3 <br>
 1. Pada Percobaan3, sebutkan blok kode program manakah yang merupakan “base case” dan “recursion call”! <br>
 2. Jabarkan trace fase ekspansi dan fase subtitusi algoritma perhitungan laba di atas jika diberikan nilai hitungLaba(100000,3) <br>
