@@ -142,7 +142,7 @@ public class Tugas {
         int hasilIteratif = totalIteratif(angka);
         System.out.println("Total dari " + N + " angka (iteratif): " + hasilIteratif);
     }
-}ng Tugas.java…]()
+
 
 
 
