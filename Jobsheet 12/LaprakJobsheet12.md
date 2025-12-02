@@ -1,4 +1,4 @@
-# Jobsheet 11 2D Array
+# Jobsheet 12 Fungsi 1
  <h1> Nama   : Naura Fadhilla Aditya Putri </h1>
  <h3> Nim    : 254107020007 </h3>
  <h3> Kelas  : TI-1C </h3>
@@ -17,19 +17,19 @@
 - Tipe kembalian (return type) menentukan apakah fungsi mengembalikan nilai atau tidak. <br>
 - Jadi, sebuah fungsi bisa saja tanpa parameter tetapi tetap mengembalikan nilai. <br>
 2. Daftar menu bisa ditampilkan tanpa menggunakan fungsi Menu(). Caranya adalah dengan langsung menuliskan perintah System.out.println(...) di dalam main <br>
-> public class kafe21 {
-    public static void Menu() { // modifikasi fungsi dengan nama Menu
-        System.out.println("========== Kafe 21 Menu ==========");
-        System.out.println("1. Kopi Hitam - Rp 15,000");
-        System.out.println("2. Capppuccino - Rp 20,000");
-        System.out.println("3. Latte - Rp 22,000");
-        System.out.println("4. Teh Tarik - Rp 12,000");
-        System.out.println("5. Roti Bakar - Rp 10,000");
-        System.out.println("6. Mie Goreng - Rp 18,000");
-        System.out.println("===================================");
-        System.out.println("Silakan pilih menu:");
-    }
-}
+> public class kafe21 { <br>
+    public static void Menu() { // modifikasi fungsi dengan nama Menu <br>
+        System.out.println("========== Kafe 21 Menu =========="); <br>
+        System.out.println("1. Kopi Hitam - Rp 15,000"); <br>
+        System.out.println("2. Capppuccino - Rp 20,000"); <br>
+        System.out.println("3. Latte - Rp 22,000"); <br>
+        System.out.println("4. Teh Tarik - Rp 12,000"); <br>
+        System.out.println("5. Roti Bakar - Rp 10,000"); <br>
+        System.out.println("6. Mie Goreng - Rp 18,000"); <br>
+        System.out.println("==================================="); <br>
+        System.out.println("Silakan pilih menu:"); <br>
+    } <br>
+} <br>
 
 3. Menggunakan fungsi Menu() memiliki keuntungan besar dibandingkan menuliskan semua perintah langsung di dalam main. Dengan adanya fungsi khusus, kode menjadi lebih rapi dan terstruktur karena tugas menampilkan daftar menu dipisahkan dari alur utama program. Fungsi ini juga memudahkan pemanggilan ulang, sehingga jika menu perlu ditampilkan berkali-kali, programmer cukup memanggil Menu() tanpa harus menulis ulang baris perintah yang sama. <br> Selain itu, perubahan harga atau penambahan menu cukup dilakukan di satu tempat, yaitu di dalam fungsi, sehingga lebih mudah dipelihara dan mengurangi duplikasi kode. Singkatnya, fungsi Menu()membuat program lebih modular, mudah dibaca, dan efisien untuk dikembangkan. <br>
 4. Alur eksekusi program ketika fungsi Menu() dipanggil dari main dapat dijelaskan singkat seperti ini: <br>
@@ -127,9 +127,9 @@ menu)? <br>
 - "int jumlahPesanan" : Digunakan untuk mengalikan harga satuan dengan jumlah pesanan agar diperoleh total harga. <br>
 3. Berikut ialah hasil modifikasi program percobaan 3 pada no **3 & 4**: <br>
 > import java.util.Scanner;
-public class kafe21Percobaan3 {
-    public static void main(String namaPelanggan, boolean isMember) { //fungsi paramenter percobaan 2
-        System.out.println("Selamat datang di Kafe 21, " + namaPelanggan + "!");
+> public class kafe21Percobaan3 {
+> public static void main(String namaPelanggan, boolean isMember) { //fungsi paramenter percobaan 2
+>        System.out.println("Selamat datang di Kafe 21, " + namaPelanggan + "!");
         
         if (isMember) {
             System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian.");
@@ -219,20 +219,20 @@ public class kafe21Percobaan3 {
 - String... disebut varargs (variable arguments) dalam Java. <br>
 Dengan varargs, kita bisa memanggil fungsi daftarPengunjung() dengan satu nama, dua nama, atau banyak nama sekaligus, tanpa harus mendefinisikan parameter berulang seperti String nama1, String nama2, String nama3. <br>
 2. Berikut ialah modifikasi program: <br>
-> public class PengunjungCafe21 {
-    static void daftarPengunjung(String...namaPengunjung) {
-        System.out.println("Daftar nama Pengunjung: ");
-        // menggunakan for-each loop untuk menampilkan nama pengunjung modified
-        for (String nama : namaPengunjung) {
-            System.out.println("- " + nama);
-        }
-    }
-    public static void main(String[] args) {
-        daftarPengunjung("Ali", "Budi", "Citra");
-        daftarPengunjung("Andi");
-        daftarPengunjung("Doni", "Eti", "Fahmi", "Galih");
-    }
-}
+> public class PengunjungCafe21 { <br>
+    static void daftarPengunjung(String...namaPengunjung) { <br>
+        System.out.println("Daftar nama Pengunjung: "); <br>
+        // menggunakan for-each loop untuk menampilkan nama pengunjung modified <br>
+        for (String nama : namaPengunjung) { <br>
+            System.out.println("- " + nama); <br>
+        } <br>
+    } <br>
+    public static void main(String[] args) { <br>
+        daftarPengunjung("Ali", "Budi", "Citra"); <br>
+        daftarPengunjung("Andi"); <br>
+        daftarPengunjung("Doni", "Eti", "Fahmi", "Galih"); <br>
+    } <br>
+} <br>
 
 3. Tidak, di Java tidak bisa menggunakan dua tipe data varargs (...) dalam satu fungsi. <br> 
 - Varargs (...) adalah cara untuk menerima jumlah argumen yang tidak tetap dalam bentuk array. <br>
